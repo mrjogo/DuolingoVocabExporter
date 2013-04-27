@@ -1,5 +1,12 @@
 /*
- * Assumes jQuery is loaded and a certain structure for the vocab page.
+ * Duolingo Vocab Exporter
+ * Created by Ruddick Lawrence
+ * ===========================
+ * Javascript to create CSV vocab lists from
+ * Duolingo vocab pages. Assumes jQuery is
+ * loaded and a certain structure for the
+ * vocab page (so it will break every
+ * redesign they do).
  */
 (function() {
 
