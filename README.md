@@ -13,7 +13,7 @@ Duolingo is an innovative (free!) way to learn new languages, but they don't pro
 Because of how the vocabulary pages work (they progressively load more words as you scroll to the bottom), you may have to wait a little as the script repeatedly scrolls down and loads all of the words. When it is finished, the page will be replaced by the CSV output, which you can copy into a new file and save with a .csv file extension.
 
 ### To turn into a bookmarklet:
-1. Minify the code by copy and pasting the contents of duolingo-vocab-exporter.js into jscompress.com and pressing "Compress Javascript".
+1. Minify duolingo-vocab-exporter.js, such as by using http://jscompress.com (if you don't do this, the bookmarklet throws errors).
 1. Create a new bookmark and title it whatever you want.
 1. In the bookmark's URL field, type "javascript:" (without the quotes), and paste the minified code from step 1.
 
